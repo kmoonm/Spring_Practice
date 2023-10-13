@@ -17,7 +17,6 @@ public class MovieController {
         this.genreService = genreService;
     }
 
-
     @RequestMapping("/")
     public String movieHome() {
         return "movieHome";
